@@ -13,10 +13,10 @@ while(x<=1):
 	  GPIO.output(35, 0)
 	  print "OFF 1"
 	  time.sleep(0.5)
-	  GPIO.output(38, 1)
+	  GPIO.output(38, 0)
 	  print "ON 2"
 	  time.sleep(0.5)
-	  GPIO.output(38, 0)
+	  GPIO.output(38, 1)
 	  print "OFF 2"
 	  time.sleep(0.5)
 	  x=x+1
